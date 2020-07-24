@@ -1,9 +1,4 @@
-body{
-    /* background-image: url(images/6.jpg);
-    background-repeat: no-repeat;
-    background-size: 1100px; */
-    background-color: white;
-}
+
 .editcolor{
     border: none;
     width: 62px;
@@ -20,7 +15,7 @@ body{
 h1, h3{
     text-align: center;
     font-family: 'Rowdies', cursive;
-    color: #f42944;
+    color: #ffffff;
 }
 .li-item{
     text-align: center;
@@ -33,29 +28,40 @@ input{
     width: 150px;
     height: 30px;
     border: none;
-    background-color: #38c4e4;
-    margin: 20px
+    background-color: rgb(252, 228, 14);
+    margin: 20px;
+    color: rgb(61, 195, 248);
 }
 .addbtn{
     width: 70px;
     height: 40px;
     margin-top: 15px;
-    background-color: #38c4e4;
+    background-color: rgb(252, 228, 14);
     border: none;
-    color: white;
+    background-color: rgb(252, 228, 14);
     font-weight: bold;
     cursor: pointer;
+    color: rgb(61, 195, 248);
+}
+.addbtn:hover{
+    color: rgb(252, 228, 14);
+    background-color: rgb(61, 195, 248);
 }
 .resetbtn{
     width: 70px;
     height: 40px;
     margin-top: 15px;
-    background-color: #38c4e4;
+    background-color: rgb(252, 228, 14);
     border: none;
     color: white;
     font-weight: bold;
     margin-left: 10px;
     cursor: pointer;
+    color: rgb(61, 195, 248);
+}
+.resetbtn:hover{
+    color: rgb(252, 228, 14);
+    background-color: rgb(61, 195, 248);
 }
 .lidelbtn{
     width: 62px;
@@ -65,12 +71,48 @@ input{
     border: none;
     background-color: white;;
 }
+
 .main{
     width: 412px;
     height: 1000px;
-    background-color: khaki;
+    background-color: rgb(61, 195, 248);
     margin: auto;
     width: 50%;
     border: 3px solid rgb(255, 255, 255);
     padding: 10px;;
 }
+
+
+@media screen and (max-width: 1040px) {
+    .main {
+        width: 1000px;
+        height: 1500px;
+    }
+    h1, h3{
+        font-size: 50px;
+    }
+    
+  }
+
+
+@media screen and (max-width: 450px) {
+    .main {
+        width: 500px;
+        height: 1500px;
+    }
+    h1, h3{
+        font-size: 50px;
+    }
+    
+  }
+
+@media screen and (max-width: 280px) {
+    .main {
+        width: 500px;
+        height: 1500px;
+    }
+    h1, h3{
+        font-size: 50px;
+    }
+    
+  }
