@@ -1,0 +1,76 @@
+body{
+    /* background-image: url(images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: 1100px; */
+    background-color: white;
+}
+.editcolor{
+    border: none;
+    width: 62px;
+    height: 25px;
+    margin: 20px;
+    margin-top: 15px;
+    background-color: white;;
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    
+}
+h1, h3{
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    color: #f42944;
+}
+.li-item{
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    font-family: sans-serif;
+   
+}
+input{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: #38c4e4;
+    margin: 20px
+}
+.addbtn{
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #38c4e4;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.resetbtn{
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #38c4e4;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.lidelbtn{
+    width: 62px;
+    height: 25px;
+    margin: 20px;
+    margin-top: 15px;
+    border: none;
+    background-color: white;;
+}
+.main{
+    width: 412px;
+    height: 1000px;
+    background-color: khaki;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;;
+}
